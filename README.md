@@ -1,5 +1,9 @@
 # Chakra UI Lost & Found
 
+## How to use
+
+1. Open https://github.com/patresk/chakra-ui-lost-and-found/tree/main/src/components and copy any components you need to your codebase!
+
 ## How to dev
 
 1. Run `npm run dev`
