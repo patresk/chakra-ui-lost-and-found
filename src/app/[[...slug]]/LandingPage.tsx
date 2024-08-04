@@ -221,6 +221,15 @@ export function LandingPage() {
 
         <Button
           size="lg"
+          bgGradient="linear(to-l, #7928CA, #FF0080)"
+          marginTop={6}
+          marginRight={5}
+          as={chakra.a}
+          href="#download">
+          Download (it's free!)
+        </Button>
+        <Button
+          size="lg"
           marginTop={6}
           rightIcon={<ArrowDownIcon />}
           as={chakra.a}
@@ -383,7 +392,7 @@ return (
         />
       </Container>
 
-      <Divider marginY={10} />
+      <Divider marginY={10} id="download" />
 
       <Container
         maxWidth="container.lg"
@@ -397,10 +406,7 @@ return (
             size="lg"
             marginBottom={4}
             color="white"
-            bgGradient="linear(to-r, teal.500, green.500)"
-            _hover={{
-              bgGradient: 'linear(to-r, red.500, yellow.500)',
-            }}
+            bgGradient="linear(to-l, #7928CA, #FF0080)"
             leftIcon={<GithubIcon boxSize={5} />}>
             Download all components
           </Button>
