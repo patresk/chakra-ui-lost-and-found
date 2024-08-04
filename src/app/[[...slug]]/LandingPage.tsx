@@ -258,6 +258,8 @@ return (
         />
       </Container>
 
+      <Divider marginY={10} />
+
       <Container maxWidth="container.lg" marginY="100px">
         <Heading size="lg">Multi select</Heading>
         <Text fontSize="md" marginY={3}>
@@ -420,10 +422,10 @@ return (
           What do I get by downloading this?
         </Heading>
         <Text fontSize="md" marginTop={6}>
-          You'll get a zip file containing the implementation of React
-          components above written in Typescript. You can copy them to your
-          project and start using them. No strings attached. I've developed and
-          tested the components on v2.8.2 of Chakra UI.
+          You'll get a list of React components above written in Typescript. You
+          can copy them to your project and start using them. No strings
+          attached. I've developed and tested the components on v2.8.2 of Chakra
+          UI.
         </Text>
         <Heading size="md" marginTop={6}>
           Why not publish this as an npm package?
@@ -433,6 +435,25 @@ return (
           my experience, these "molecular" or "composite" components are often
           very customized to fit the need of the particular SAAS product (and
           requirements of the designers).
+        </Text>
+        <Heading size="md" marginTop={6}>
+          Is this open-source?
+        </Heading>
+        <Text fontSize="md" marginTop={6}>
+          I don't know because I didn't bother to write any license file, but
+          the code is public, and you can create a PR or fork the{' '}
+          <Link
+            href="https://github.com/patresk/chakra-ui-lost-and-found/tree/main"
+            isExternal>
+            GitHub repository
+            <ExternalLinkIcon
+              mx="2px"
+              boxSize={4}
+              position="relative"
+              top="-2px"
+            />
+          </Link>
+          .
         </Text>
         <Heading size="md" marginTop={6}>
           Who and why did this?
@@ -459,8 +480,8 @@ return (
             />
           </Link>
           . I've built this collection of components to help other developers
-          that have adopted Chakra UI, but were surprised by the lack of
-          existence of some components.
+          that have adopted Chakra UI, but are missing some popular UI
+          components.
         </Text>
       </Container>
 
